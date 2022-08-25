@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_body2.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\body2.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_head1.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\head1.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_leg2.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\leg2.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_body3.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\body3.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\layout_body_fragment.xml.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\layout\\body_fragment.xml"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_head2.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\head2.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_body1.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\body1.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_leg1.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\leg1.png"
+    },
+    {
+        "merged": "E:\\android_me_StartCode\\app\\build\\intermediates\\res\\merged\\debug\\drawable_body4.png.flat",
+        "source": "E:\\android_me_StartCode\\app\\src\\main\\res\\drawable\\body4.png"
+    }
+]
