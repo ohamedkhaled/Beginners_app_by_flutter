@@ -1,5 +1,6 @@
 import 'package:chat_app/Provider/Model_Hud_Provider.dart';
 import 'package:chat_app/View/Chat_Screen.dart';
+import 'package:chat_app/View/Splash_Screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -32,11 +33,12 @@ class ChatApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: LoginScreen.id,
+      initialRoute: SplashScreen.id,
       routes: {
         LoginScreen.id:(context)=> LoginScreen(),
         SignUpScreen.id:(context)=> SignUpScreen(),
         ChatScreen.id:(context)=> ChatScreen(),
+        SplashScreen.id:(context)=> SplashScreen()
       },
 
      // home: LoginScreen(),

@@ -54,6 +54,7 @@ class ChatScreen extends StatelessWidget {
                         controller: _controller,
                         itemBuilder: (BuildContext context, int index) {
                           if(Email ==messagesList[index].Id){
+                            print(messagesList[index].time?.toDate());
                             return Bubble(
                               elevation: 5,
                               shadowColor: kPrimaryColor,
@@ -62,10 +63,22 @@ class ChatScreen extends StatelessWidget {
                               margin: BubbleEdges.only(top: 10),
                               nip: BubbleNip.rightBottom,
                               color: kPrimaryColor,
-                              child: Text(
-                                messagesList[index].content!,
-                                style:
-                                TextStyle(color: Colors.white, fontSize: 16),
+                              child:Column(
+                                crossAxisAlignment: CrossAxisAlignment.end,
+                                children: <Widget>[
+                                  Text(
+                                    messagesList[index].content!,
+                                    style:
+                                    TextStyle(color: Colors.white, fontSize: 16),
+                                  ),
+                                 messagesList[index].time!.toDate().minute.toInt() < 10 ? 
+                                 Text( '${messagesList[index].time?.toDate().hour}:0${messagesList[index].time!.toDate().minute}',
+                                     style: TextStyle( color: Colors.white,fontSize: 10),)
+                                     :
+                                     Text('${messagesList[index].time?.toDate().hour}:${messagesList[index].time!.toDate().minute}',
+                                         style: TextStyle( color: Colors.white,fontSize: 10))
+                                     
+                                ],
                               ),
                             );
                           } else
@@ -76,7 +89,21 @@ class ChatScreen extends StatelessWidget {
                                 margin: BubbleEdges.only(top: 10),
                                 alignment: Alignment.topLeft,
                                 nip: BubbleNip.leftBottom,
-                                child: Text(messagesList[index].content!,style: TextStyle(color: kPrimaryColor,fontSize: 16)),
+                                child:
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.end,
+                            children: <Widget>[
+                              Text(messagesList[index].content!,style: TextStyle(color: kPrimaryColor,fontSize: 16)),
+                              messagesList[index].time!.toDate().minute.toInt() < 10 ?
+                              Text( '${messagesList[index].time?.toDate().hour}:0${messagesList[index].time!.toDate().minute}',
+                                  style: TextStyle( color:kPrimaryColor,fontSize: 10)
+                              )
+                                  :
+                              Text('${messagesList[index].time?.toDate().hour}:${messagesList[index].time!.toDate().minute}',
+                                  style: TextStyle( color:kPrimaryColor,fontSize: 10)
+                              )
+                            ],
+                          ),
                               );
                             }
 
@@ -123,7 +150,7 @@ class ChatScreen extends StatelessWidget {
 
   OnClick(String id){
     message.content = controller.text;
-    message.time = Timestamp.now();
+    message.time =Timestamp.now();
     message.Id=id ;
     stor.addMessage(message);
     controller.clear();
